@@ -363,8 +363,10 @@
   position: relative;
   /* size */
   height: 740px;
+  margin: auto;
   /* background */
   background-image: url('../image/background_inf.png');
+  background-repeat: no-repeat;
 }
 
 .hapo-inf_1 {
@@ -374,18 +376,22 @@
 }
 
 .hapo-inf_2 {
-  /* position */
+  /* position , width*/
+  width: 750px;
+  height: 544px;
   position: absolute;
-  right: 0px;
+  right: 0%;
   top: 13.5%;
-  bottom: 0px;
+  bottom: 0%;
   /* display */
 }
 
 .hapo-content {
   /* width */
+  margin-left: 100px;
   position: absolute;
   top: 40%;
+  padding-left: 0px;
   /* color */
   color: #FFFFFF;
 }
@@ -407,12 +413,13 @@
 .hapo-content li {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 20px auto;
   /* font */
   font-family: UTM BryantLG;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 25px;
   /* identical to box height */
   letter-spacing: -0.05em;
@@ -457,7 +464,15 @@
   color: #505353;
 }
 
+.hapo-wrap-feedback-users {
+  margin-top: 40px;
+  /*  */
+  display: flex;
+  justify-content: center;
+}
+
 .hapo-feedback-user {
+  margin: auto 14px;
   width: 570px;
 }
 
@@ -470,7 +485,7 @@
   align-items: center;
   margin-bottom: 10px;
   /* border */
-  border: 0.5px solid red;
+  border: 0.5px solid #E2E2E2;
   box-sizing: border-box;
   border-radius: 10px;
 }
@@ -493,6 +508,7 @@
 .hapo-message {
   display: flex;
   align-items: center;
+  padding: 0px 20px;
 }
 
 .hapo-user-inf {
@@ -504,4 +520,5 @@
 .hapo-like {
   display: flex;
   align-items: center;
+  margin: 3px auto;
 }

@@ -1,12 +1,17 @@
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
+}
+
+body {
+  margin: auto;
+  max-width: 1366px;
 }
 
 @font-face {
-    font-family: font_main;
-    src: url(../font/UTM\ BryantLG.ttf);
+  font-family: font_main;
+  src: url(../font/UTM\ BryantLG.ttf);
 }
