@@ -1,3 +1,12 @@
 a {
     text-decoration: none;
 }
+
+ul {
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: font_main;
+    src: url(../font/UTM\ BryantLG.ttf);
+}

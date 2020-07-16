@@ -1,299 +1,507 @@
 .hapo-wrap {
-    width: 100%;
-    height: 150px;
-    display: flex;
-    align-items: center;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
 }
 
 .hapo-logo {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 .hapo-logo-image {
-    width: 340px;
-    height: 70px;
+  width: 340px;
+  height: 70px;
 }
 
 .hapo-nav {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 .hapo-nav-items {
-    padding-left: 0px;
-    display: flex;
+  padding-left: 0px;
+  display: flex;
+  width: 862px;
 }
 
-.hapo-nav-items {
-    list-style-type: none;
-    margin-left: 35px;
-    line-height: 19px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
+.hapo-nav-item {
+  list-style-type: none;
+  margin-left: 35px;
+  line-height: 19px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.hapo-nav-item:nth-child(6) {
+  min-width: 65px;
 }
 
 .hapo-items-link {
-    color: black;
-    text-decoration: none;
-    border-radius: 17px;
-    /* padding */
-    padding-left: 3px;
-    padding-right: 3px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  color: black;
+  text-decoration: none;
+  border-radius: 17px;
+  /* padding */
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 
 /*hover navigation */
 
 .hapo-items-link:hover {
-    background-color: #B2D235;
-    color: white
+  background-color: #B2D235;
+  color: white
 }
 
 .hapo-wrap-slide {
-    position: relative;
-    height: 655px;
-    width: 100%;
-    background-repeat: no-repeat;
-    /* // background-position: -90px; */
-    background-image: url('../image/background_slide.png');
+  position: relative;
+  height: 655px;
+  width: 100%;
+  background-repeat: no-repeat;
+  /* // background-position: -90px; */
+  background-image: url('../image/background_slide.png');
 }
 
 .hapo-slide-desc {
-    position: absolute;
-    width: 513px;
-    height: 61px;
-    margin-left: 51px;
-    margin-top: 204px;
+  position: absolute;
+  width: 513px;
+  height: 61px;
+  margin-left: 51px;
+  margin-top: 204px;
 }
 
 .hapo-slide-desc-slogan {
-    /* dang loi font doan nay fix sau */
-    font-family: UTM BryantLG;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 61px;
-    letter-spacing: -0.05em;
+  /* dang loi font doan nay fix sau */
+  font-family: font_main;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 61px;
+  letter-spacing: -0.05em;
 }
 
 .hapo-slide-desc-slogan-det {
-    display: block;
-    width: 249px;
-    height: 50px;
-    /* font */
-    font-family: UTM BryantLG;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: -0.05em;
-    /* color */
-    color: #505353;
+  display: block;
+  width: 249px;
+  height: 50px;
+  /* font */
+  font-family: font_main;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.05em;
+  /* color */
+  color: #505353;
 }
 
 .hapo-button-courses {
-    /* size */
-    width: 377px;
-    height: 70px;
-    /*  */
+  /* size */
+  width: 377px;
+  height: 70px;
+  /*  */
 }
 
 .hapo-button-courses-link {
-    display: block;
-    width: 377px;
-    height: 70px;
-    margin-top: 30px;
-    /* background, color */
-    background-color: #B2D235;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 35px;
-    /* text */
-    text-align: center;
-    line-height: 70px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 70px;
-    /* identical to box height */
-    letter-spacing: -0.05em;
-    color: #FFFFFF;
+  display: block;
+  width: 377px;
+  height: 70px;
+  margin-top: 30px;
+  /* background, color */
+  background-color: #B2D235;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  /* text */
+  text-align: center;
+  line-height: 70px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 70px;
+  /* identical to box height */
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
 }
 
 .hapo-wrap-message {
-    position: absolute;
-    width: 360px;
-    height: 190px;
-    bottom: 0%;
-    right: 2%;
-    /* background, color */
-    background-color: white;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
-    border-radius: 23px;
+  position: absolute;
+  width: 360px;
+  height: 190px;
+  bottom: 0%;
+  right: 2%;
+  /* background, color */
+  background-color: white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
 }
 
 .hapo-user {
-    margin-bottom: 10px;
-    padding-left: 60px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: -0.02em;
-    color: #7F7F7F;
+  margin-bottom: 10px;
+  padding-left: 60px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #7F7F7F;
 }
 
 .hapo-wrap-message-content {
-    padding-left: 10px;
-    display: flex;
-    align-items: center;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .hapo-message-content {
-    width: 256px;
-    padding: 10px 5px 10px 5px;
-    display: flex;
-    align-items: center;
-    background: #F1F0F0;
-    border-radius: 15px;
-    /* text */
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 17px;
-    /* or 142% */
-    letter-spacing: -0.02em;
-    color: #505353;
+  width: 256px;
+  padding: 10px 5px 10px 5px;
+  display: flex;
+  align-items: center;
+  background: #F1F0F0;
+  border-radius: 15px;
+  /* text */
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  /* or 142% */
+  letter-spacing: -0.02em;
+  color: #505353;
 }
 
 .hapo-user-image {
-    height: 30px;
+  height: 30px;
 }
 
 .hapo-message-content {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .hapo-button-message {
-    margin-top: 33px;
+  margin-top: 33px;
 }
 
 .hapo-button-message-link {
-    display: block;
-    width: 276px;
-    height: 37px;
-    text-align: center;
-    line-height: 37px;
-    margin: auto;
-    /*  */
-    background: #3184F7;
-    border-radius: 10px;
+  display: block;
+  width: 276px;
+  height: 37px;
+  text-align: center;
+  line-height: 37px;
+  margin: auto;
+  /*  */
+  background: #3184F7;
+  border-radius: 10px;
 }
 
 .det-message {
-    margin: 5px auto auto auto;
-    padding-left: 0px;
-    text-align: center;
+  margin: 5px auto auto auto;
+  padding-left: 0px;
+  text-align: center;
 }
 
 .hapo-wrap-space {
-    width: 100%;
-    height: 161px;
-    background-image: linear-gradient(0deg, rgb(182, 178, 178), #FFFFFF);
+  width: 100%;
+  height: 161px;
+  background-image: linear-gradient(0deg, rgb(182, 178, 178), #FFFFFF);
 }
 
 .hapo-wrap-icon {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    right: 0%;
-    top: 103%;
-    /*  */
-    background-color: #2774DF;
-    border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  right: 0%;
+  top: 103%;
+  /*  */
+  background-color: #2774DF;
+  border-radius: 50%;
 }
 
 .hapo-wrap-icon>img {
-    margin-top: 1px;
+  margin-top: 1px;
 }
 
 .hapo-wrap-courses {
-    width: 100%;
-    position: absolute;
+  width: 100%;
+  position: relative;
 }
 
 .hapo-wrap-courses-row {
-    width: 100%;
-    position: absolute;
-    top: -104px;
-    display: flex;
-    justify-content: center;
-    /*  */
+  width: 100%;
+  position: relative;
+  top: -104px;
+  display: flex;
+  justify-content: center;
+  /*  */
+}
+
+.hapo-row-2 {
+  margin: auto;
+  width: 630px;
+  height: 100px;
+  margin-top: 110px;
+  border-bottom: 3px solid #B2D235;
+  margin-bottom: 66px;
+}
+
+.hapo-courses-image-rails_icon {
+  position: relative;
+  left: 10%;
+}
+
+.hapo-courses-image-rails {
+  position: relative;
+  bottom: -9%;
+  left: -10%;
+}
+
+.hapo-other-courses h1 {
+  margin: 0px auto;
+  /* font */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 98px;
 }
 
 .hapo-course {
-    width: 366px;
-    height: 470px;
-    margin: auto 14px;
-    /*  */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
+  width: 366px;
+  height: 470px;
+  margin: auto 14px;
+  /*  */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
 }
 
 .hapo-courses-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 215px;
-    /*  */
-    background: #3F6185;
-    border-radius: 15px 15px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 215px;
+  /*  */
+  background: #3F6185;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.courses-background {
+  background: #DC594C;
 }
 
 .hapo-courses-det-heading {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 37px;
-    /* identical to box height */
-    letter-spacing: -0.05em;
-    color: #B2D235;
+  /*  */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 37px;
+  /* identical to box height */
+  letter-spacing: -0.05em;
+  color: #B2D235;
 }
 
 .hapo-courses-det {
-    width: 294px;
-    height: 80px;
-    margin: auto;
-    /*  */
-    font-family: UTM BryantLG;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
-    /* or 143% */
-    text-align: center;
-    letter-spacing: -0.05em;
+  width: 294px;
+  margin: auto;
+  /*  */
+  font-family: UTM BryantLG;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 143% */
+  text-align: center;
+  letter-spacing: -0.05em;
+}
+
+.hapo-course-link {
+  display: flex;
+  justify-content: center;
 }
 
 .hapo-button-course-link {
-    display: block;
-    width: 200px;
-    height: 42px;
-    line-height: 42px;
-    text-align: center;
-    color: white;
-    /*  */
-    margin: auto;
-    margin-top: 70px;
-    /*  */
-    background: #B2D235;
-    border-radius: 22px;
+  display: block;
+  width: 200px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  color: white;
+  /*  */
+  margin-top: 15px;
+  /*  */
+  background: #B2D235;
+  border-radius: 22px;
+}
+
+.hapo-row-4 {
+  /*  */
+  margin-top: 60px;
+  /*  */
+  font-family: UTM BryantLG;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  color: #B2D235;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+}
+
+.hapo-row-4 a {
+  color: #B2D235
+}
+
+.hapo-inf-content {
+  /* position */
+  position: relative;
+  /* size */
+  height: 740px;
+  /* background */
+  background-image: url('../image/background_inf.png');
+}
+
+.hapo-inf_1 {
+  /* position */
+  position: absolute;
+  top: -30%
+}
+
+.hapo-inf_2 {
+  /* position */
+  position: absolute;
+  right: 0px;
+  top: 13.5%;
+  bottom: 0px;
+  /* display */
+}
+
+.hapo-content {
+  /* width */
+  position: absolute;
+  top: 40%;
+  /* color */
+  color: #FFFFFF;
+}
+
+.hapo-content-heading {
+  /* width */
+  margin-bottom: 15px;
+  /* font */
+  font-family: UTM BryantLG;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 86px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+
+.hapo-content li {
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  /* font */
+  font-family: UTM BryantLG;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+  letter-spacing: -0.05em;
+}
+
+.hapo-content img {
+  margin-right: 15px;
+}
+
+.hapo-feedback-heading {
+  /* size */
+  margin: 110px auto 40px auto;
+  padding: 5px 0px;
+  width: 435px;
+  /* border */
+  border-bottom: 3px solid #B2D235;
+  /* font */
+  font-family: UTM BryantLG;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 98px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  color: #11114E;
+}
+
+.hapo-feedback-det {
+  /* size */
+  margin: auto;
+  width: 471px;
+  /* text */
+  text-align: center;
+  /* font */
+  font-family: UTM BryantLG;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #505353;
+}
+
+.hapo-feedback-user {
+  width: 570px;
+}
+
+.hapo-wrap-feedback-content {
+  /* width */
+  width: 570px;
+  height: 163.47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  /* border */
+  border: 0.5px solid red;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.hapo-feedback-user-content {
+  /* width */
+  width: 497px;
+  height: 89px;
+  /* border */
+  font-family: UTM BryantLG;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.05em;
+  /* cross */
+  overflow-y: auto;
+}
+
+.hapo-message {
+  display: flex;
+  align-items: center;
+}
+
+.hapo-user-inf {
+  margin-left: 10px;
+}
+
+.hapo-userN,
+.hapo-coursesN,
+.hapo-like {
+  display: flex;
+  align-items: center;
 }
