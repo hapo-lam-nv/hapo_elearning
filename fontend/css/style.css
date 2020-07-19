@@ -493,13 +493,17 @@
 }
 
 .hapo-wrap-feedback-users {
+  height: 200px;
   margin-top: 40px;
   /*  */
   display: flex;
   justify-content: center;
 }
 
-.left_icon {}
+.left_icon,
+.right_icon {
+  z-index: 2;
+}
 
 .hapo-feedback-user {
   margin: auto 14px;
@@ -556,6 +560,12 @@
 
 .hapo-wrap-feedback-users {
   position: relative;
+}
+
+.hapo-wrap-slider {
+  display: flex;
+  position: absolute;
+  visibility: hidden;
 }
 
 .hapo-left-right {
