@@ -544,6 +544,7 @@
   letter-spacing: -0.05em;
   /* cross */
   overflow-y: auto;
+  direction: rtl;
 }
 
 .hapo-feedback-user-content::-webkit-scrollbar {
@@ -552,10 +553,12 @@
 
 .hapo-feedback-user-content::-webkit-scrollbar-track {
   background: #f1f1f1;
+  border-radius: 5px;
 }
 
 .hapo-feedback-user-content::-webkit-scrollbar-thumb {
   background: #c1c1c1;
+  border-radius: 5px;
 }
 
 .hapo-message {
