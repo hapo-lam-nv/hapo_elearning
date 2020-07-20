@@ -57,6 +57,9 @@
   color: white;
 }
 
+
+/*css banner  */
+
 .hapo-wrap-slide {
   position: relative;
   height: 655px;
@@ -132,10 +135,6 @@
   position: absolute;
   width: 360px;
   height: 190px;
-  /* background, color */
-  /* background-color: white;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
-  border-radius: 23px; */
 }
 
 .hapo-wrap-content-mes {
@@ -237,6 +236,9 @@
   background-image: linear-gradient(0deg, rgb(182, 178, 178), #ffffff);
 }
 
+
+/* css icon message */
+
 .hapo-wrap-icon {
   position: absolute;
   display: flex;
@@ -254,6 +256,9 @@
 .hapo-wrap-icon>img {
   margin-top: 1px;
 }
+
+
+/* css wrap courses */
 
 .hapo-wrap-courses {
   width: 100%;
@@ -385,6 +390,9 @@
   color: #b2d235;
 }
 
+
+/* css information HapoLearn */
+
 .hapo-inf-content {
   /* position */
   position: relative;
@@ -492,6 +500,9 @@
   color: #505353;
 }
 
+
+/* css wrap feedback */
+
 .hapo-wrap-feedback-users {
   height: 200px;
   margin-top: 40px;
@@ -576,6 +587,9 @@
   justify-content: space-between;
 }
 
+
+/* css wrap-start learn */
+
 .hapo-wrap-learn {
   padding: 134px 0px;
   margin-top: 110px;
@@ -622,13 +636,16 @@
   letter-spacing: -0.05em;
 }
 
+
+/* css statistic */
+
 .hapo-static-data {
   display: flex;
   justify-content: center;
 }
 
 .hapo-statistic {
-  width: 400px;
+  width: 300px;
 }
 
 .hapo-statistic-name,
@@ -648,6 +665,9 @@
   margin: 30px auto 140px auto;
   color: #b2d235;
 }
+
+
+/* css footer */
 
 .hapo-wrap-footer {
   display: flex;
