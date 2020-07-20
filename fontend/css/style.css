@@ -546,6 +546,18 @@
   overflow-y: auto;
 }
 
+.hapo-feedback-user-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.hapo-feedback-user-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.hapo-feedback-user-content::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+}
+
 .hapo-message {
   display: flex;
   align-items: center;
