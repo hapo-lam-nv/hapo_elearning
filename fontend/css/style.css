@@ -102,34 +102,11 @@
   color: #505353;
 }
 
-.hapo-button-courses {
-  /* size */
-  width: 377px;
-  height: 70px;
-  /*  */
-}
 
-.hapo-button-courses-link {
-  display: block;
-  width: 377px;
-  height: 70px;
-  margin-top: 30px;
-  /* background, color */
-  background-color: #b2d235;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 35px;
-  /* text */
-  text-align: center;
-  line-height: 70px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 70px;
-  /* identical to box height */
-  letter-spacing: -0.05em;
-  color: #ffffff;
-}
+/* css courses */
+
+
+/* message */
 
 .hapo-wrap-message {
   position: absolute;
@@ -263,6 +240,35 @@
 .hapo-wrap-courses {
   width: 100%;
   position: relative;
+}
+
+.hapo-button-courses {
+  /* size */
+  width: 377px;
+  height: 70px;
+  /*  */
+}
+
+.hapo-button-courses-link {
+  display: block;
+  width: 377px;
+  height: 70px;
+  margin-top: 30px;
+  /* background, color */
+  background-color: #b2d235;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  /* text */
+  text-align: center;
+  line-height: 70px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 70px;
+  /* identical to box height */
+  letter-spacing: -0.05em;
+  color: #ffffff;
 }
 
 .hapo-wrap-courses-row {
@@ -464,6 +470,9 @@
   margin-right: 15px;
 }
 
+
+/* feedback */
+
 .hapo-feedback-heading {
   /* size */
   margin: 110px auto 40px auto;
@@ -499,9 +508,6 @@
   letter-spacing: -0.02em;
   color: #505353;
 }
-
-
-/* css wrap feedback */
 
 .hapo-wrap-feedback-users {
   height: 200px;
