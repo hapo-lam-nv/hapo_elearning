@@ -583,6 +583,7 @@
   display: flex;
   position: absolute;
   visibility: hidden;
+  animation-duration: 2s;
 }
 
 .hapo-left-right {

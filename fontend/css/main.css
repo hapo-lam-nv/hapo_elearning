@@ -11,14 +11,23 @@ body {
   max-width: 1366px;
 }
 
-@font-face {
-  font-family: font_main;
-  src: url("../font/UTM BryantLG.ttf");
-}
-
 .font-main {
   font-family: font_main;
   font-style: normal;
   letter-spacing: -0.05em;
   color: #ffffff;
+}
+
+@font-face {
+  font-family: font_main;
+  src: url("../font/UTM BryantLG.ttf");
+}
+
+@keyframes slide_show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

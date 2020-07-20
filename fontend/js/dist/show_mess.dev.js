@@ -24,6 +24,7 @@ $(document).ready(function () {
     console.log(n);
     var slider_len = $(".hapo-wrap-slider").length;
     $(".hapo-wrap-slider").css("visibility", "hidden");
+    $(".hapo-wrap-slider").css("animation-name", "");
 
     if (n < 0) {
       index = slider_len - 1;
@@ -35,6 +36,7 @@ $(document).ready(function () {
 
     console.log(index);
     $(".hapo-wrap-slider").eq(index).css("visibility", "visible");
+    $(".hapo-wrap-slider").eq(index).css("animation-name", "slide_show");
   }
 
   function flusSlider(n) {
